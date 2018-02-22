@@ -1,0 +1,35 @@
+Token name: Special Social Coin
+
+Token ticker: SPS
+
+Token decimals: 18
+
+Multisig wallet address: 0xbfe83F51c53d0658B7BFc08e74D920630D80d365
+
+*****************************
+
+Crowdsale rate: 50
+
+Crowdsale start time: 2018-02-22T23:13 (GMT + 2)
+
+Crowdsale end time: 2018-03-25T00:13 (GMT + 2)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Finalize agent contract name: ReservedTokensFinalizeAgent
+
+Finalize agent contract address for SPS ICO: 0x4a2c1aeFc808C059478ad54432549F43Cf1a8f39
+
+*****************************
+
+****Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"distributedReservedTokensDestinationsLen","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"reservedTokensDistributionBatch","type":"uint256"}],"name":"distributeReservedTokens","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"reservedTokensAreDistributed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"inputs":[{"name":"_token","type":"address"},{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor"}]
+
+****Finalize agent contract ABI encoded constructor arguments for SPS ICO:**** 
+
+000000000000000000000000755caa2b3af6f7b3c76629dc35775d97464371e1000000000000000000000000af9340714269a60add941384b87e51810c23cac5
